@@ -32,7 +32,26 @@
 
     <div id="about-me">
       <div class="container">
-        <h1>Hi, I'm <span>Praise Ajala.</span></h1>
+        <h1>
+          Hi, I'm
+          <span>
+            <div>
+              <h1 class="name">P</h1>
+              <h1 class="name">r</h1>
+              <h1 class="name">a</h1>
+              <h1 class="name">i</h1>
+              <h1 class="name">s</h1>
+              <h1 class="name">e</h1>
+            </div>
+            <div>
+              <h1 class="name">A</h1>
+              <h1 class="name">j</h1>
+              <h1 class="name">a</h1>
+              <h1 class="name">l</h1>
+              <h1 class="name">a</h1>
+            </div>
+          </span>
+        </h1>
         <div class="description">
           <p>
             I am a highly skilled frontend web developer based in Nigeria,
@@ -49,30 +68,30 @@
           <div class="cont">
             <div class="img-cont">
               <img src="/images/my-picture.jpg" alt="" />
-              <h2>A Software developer😎</h2>
+              <h2 class="name">A Software developer😎</h2>
             </div>
           </div>
         </div>
         <div class="skills">
           <h3>My skills include:</h3>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>Tailwind CSS</li>
-            <li>React JS</li>
-            <li>Next JS</li>
-            <li>Redux Toolkit</li>
-            <li>GSAP Animation</li>
-            <li>Git & Github</li>
+            <li class="skill">HTML</li>
+            <li class="skill">CSS</li>
+            <li class="skill">Javascript</li>
+            <li class="skill">Typescript</li>
+            <li class="skill">Tailwind CSS</li>
+            <li class="skill">React JS</li>
+            <li class="skill">Next JS</li>
+            <li class="skill">Redux Toolkit</li>
+            <li class="skill">GSAP Animation</li>
+            <li class="skill">Git & Github</li>
           </ul>
         </div>
       </div>
     </div>
 
     <div id="projects" class="container">
-      <h1>My Works</h1>
+      <h1 class="projects">My Works</h1>
       <div class="projects" id="PortfolioProjects"></div>
     </div>
     <div id="contact" class="container">
@@ -140,6 +159,9 @@
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="/js/gsap.js"></script>
     <script type="module" src="/js/script.js"></script>
   </body>
 </html>

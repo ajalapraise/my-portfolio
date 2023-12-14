@@ -1,5 +1,6 @@
 import projects from "./projects.js";
 
+
 function portfolioProjects() {
     const eachProject = projects.map(
         (project) =>
@@ -61,3 +62,4 @@ function portfolioProjects() {
 }
 
 document.addEventListener("DOMContentLoaded", portfolioProjects);
+
