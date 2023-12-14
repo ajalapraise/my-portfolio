@@ -230,7 +230,7 @@ width: 50%;}
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
-  background-color: hwb(153 30% 12%);
+  background-color: hsl(155, 84%, 37%);
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
   cursor: pointer;
@@ -350,7 +350,7 @@ text-align: center;
 
   .container {
     padding: 4% 10%;
-    margin: 4rem auto 0;
+    margin: 5rem auto 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,7 +362,7 @@ text-align: center;
 
 
   a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 
