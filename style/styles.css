@@ -381,4 +381,8 @@ text-align: center;
   .skills{
     margin-top: 2rem;
   }
+
+  .project-info h3{
+    font-size: 13px;
+  }
 }
