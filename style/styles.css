@@ -33,7 +33,7 @@ nav {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  width: 40%;
+  min-width: 40%;
 }
 .nav-links ul{
   display: flex;
